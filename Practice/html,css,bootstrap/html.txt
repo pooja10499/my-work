@@ -1,0 +1,18 @@
+<table>
+<caption>Students Personal Details</caption>
+<tr>
+<th>Sr.No</th>
+<th>Full Name</th>
+<th>Qualification</th>
+<th>Phone No</th>
+<th>Email ID</th>
+<th>Address </th>
+</tr>
+<tr>
+<td>1</td>
+<td>Jayashri Raut</td>
+<td>BE</td>
+<td>987654321</td>
+<td>jayashri@gmail.com</td>
+<td>Pune, Maharashtra</td>
+</tr>

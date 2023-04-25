@@ -1,0 +1,62 @@
+<html>
+<head>
+<style> 
+td{
+font-size:20px;
+}
+input[type],textarea,select{
+height:30%;
+width:50%;
+padding :15px;
+border:2px solid #ccc;
+outline:none;
+}
+input[type]:focus{
+background-color:lightblue;
+border:px solid blue;
+}
+input[type=submit,reset]{
+width:100%;
+background-color:green;
+color:white;
+padding:20px;
+}
+</style>
+</head>
+<body>
+<h1>Student Registastion</h1>
+<table>
+<form method="post" action="">
+<tr><td><lable>Enter name:</lable></td>
+<td><input type="text" name="fname" value="" placeholder="first name" autofocus required></td></tr>
+<tr><td><lable>Enter Surname:</lable></td>
+<td><input type="text" name="lname" value="" placeholder="last name" required></td></tr>
+<tr><td><lable>Enter Mobile No:</lable></td>
+<td><input type="tel" name="phn no" value="" placeholder="Mobile no" required></td></tr>
+<tr><td><lable>Enter Email:</lable></td>
+<td><input type="email" name="mail id" value="" placeholder="Email Id" required></td></tr>
+<tr><td><lable>DOB:</lable></td>
+<td><input type="Date" name="birth date" value="" placeholder="Date Of Birth" required></td></tr>
+<tr><td><lable>Enter Address:</lable></td>
+<td><textarea col="10" rows="5"></textarea></td></tr>
+<tr><td><lable> Choose Gender:</lable></td>
+<td><input type="radio" name="Gender" value="Male"  required>Male
+<input type="radio" name="Gender" value="Female"  required>Female
+<input type="radio" name="Gender" value="other" required>Other
+</td></tr>
+<tr><td><lable> Choose Qualification:</lable></td>
+<td><input type="Checkbox" name="HSC/Diploma" value=""  required>HSC/DIPLOMA
+<input type="checkbox" name="BSC" value=""  required>BSC
+<input type="checkbox" name="BE" value="" required>BE
+<input type="checkbox" name="Master" value="" required>ME/MSC
+<tr><td><lable>Enter Password:</lable></td>
+<td><input type="password" name="Pass" value="" placeholder="Password" required></td></tr>
+<tr><td><lable>Attach Resume:</lable></td>
+<td><input type="file"></td>
+</tr>
+<td><input type="submit"  value="Register"</td>
+<td><input type="reset"  value="Reset"</td>
+
+</table>
+</body>
+</html>
